@@ -12,6 +12,15 @@ const Users = require('../auth/models/users-model');
 // this for route methode 
 let router = express.Router();
 
+
+
+
+router.get('/', helloBackend);
+
+function helloBackend(req, res) {
+  res.send('Hello its working');
+}
+
 // Signup Route -- create a new user
 // Two ways to test this route with httpie
 // echo '{"username":"john","password":"foo"}' | http post :3000/signup
