@@ -4,7 +4,7 @@ require('dotenv').config();
 //local dependencies
 const server =require('./src/server');
 const PORT = process.env.PORT;
-const MONGODB_URI =`mongodb://localhost:27017/Oauth`; 
+const MONGODB_URI =`mongodb+srv://rujeena:QQWWaasszzxx12!@@cluster0.lzdt9.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`; 
 
 // 3'rd party dependencies or libraries
 const mongoose = require('mongoose');
